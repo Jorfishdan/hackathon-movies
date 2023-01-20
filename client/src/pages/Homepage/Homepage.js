@@ -10,16 +10,16 @@ function HomePage() {
         <>
         <NavBar />
         <div className="homepage">
-        <form className="homepage__form">
+        {/* <form className="homepage__form">
           <input className="homepage__input"type="text" placeholder="Search here..."></input>
-        </form>
+        </form> */}
   
 
-      <div className='moviecard'>
-      {/* <img className="moviecard__img" src={avatar} alt="movie poster">Picture</img> */}
+      {/* <div className='moviecard'>
+      <img className="moviecard__img" src={avatar} alt="movie poster">Picture</img>
         <div className="moviecard__title">title</div>
         <div className="moviecard__details">Summary details button to movie details page</div>
-       </div>
+       </div> */}
        </div>
         </>
     )
