@@ -4,6 +4,8 @@ import NavBar from "../../components/NavBar/NavBar";
 import MovieCard from "../../components/MovieCard";
 import SearchBar from "../../components/SearchBar/SearchBar";
 
+// THIS ONE DOESNT WORK
+
 function HomePage() {
     return (
         <>

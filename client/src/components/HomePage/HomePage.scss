@@ -1,0 +1,19 @@
+@use "../../styles/global" as *;
+
+.homepage{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+
+    &__form {
+        margin-top: 5rem;
+    }
+
+    input {
+       height: 3rem;
+        width: 80vw;
+        margin-bottom: 10rem;
+    }
+
+
+}
