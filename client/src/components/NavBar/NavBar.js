@@ -15,6 +15,7 @@ function NavBar() {
       <div className="NavBar__random-avatar-wrapper">
       <button className="NavBar__random">Roulette</button>
       <img className="NavBar__avatar" src={avatar} alt="avatar profile"></img>
+      {/* <p className='NavBar__username'>Rachel</p> */}
       </div>
     </nav>
   );
