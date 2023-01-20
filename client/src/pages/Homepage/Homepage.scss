@@ -1,3 +1,43 @@
 @use '../../styles/global' as *;
-// THIS ONE DOESN"T WORK
+
+.homepage{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    // border: solid 1px white;
+    // border-radius: 0.5rem;
+
+
+    &__form {
+        margin-top: 5rem;
+    }
+
+    input {
+       height: 3rem;
+        width: 80vw;
+        margin-bottom: 10rem;
+
+        &:hover{
+            border: 2px solid greenyellow;
+        }
+    }
+
+}
+
+.moviecard {
+    background-color: black;
+    width: 10rem;
+    height: 10rem;
+    color:white;
+    border: 1px solid white;
+    margin-bottom: 2rem;
+
+    &:hover{
+        background-color: white;
+        color:black;
+        border: 2px solid lightgreen;
+    }
+
+}
 
