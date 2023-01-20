@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 function SearchBar({ searchText, setSearchText }) {
     const navigate = useNavigate();
     const updateSearchText = (e) => {
-      navigate.push("/search")
+      navigate("/")
       setSearchText(e.target.value)
     };
   
@@ -20,3 +20,4 @@ function SearchBar({ searchText, setSearchText }) {
   );
 }
 export default SearchBar;
+
