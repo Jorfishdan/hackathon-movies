@@ -1,1 +1,7 @@
 @use "../../styles/global" as *;
+
+.NavBar {
+    &__home{
+        color: purple;
+    }
+}
