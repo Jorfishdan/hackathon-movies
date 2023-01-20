@@ -1,7 +1,71 @@
 @use "../../styles/global" as *;
 
 .NavBar {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: black;
+    font-size: 2rem;
+    height: 5rem;
+    border: 1px solid black;
+
     &__home{
-        color: purple;
+        color: white;
+        font-family: 700;
+
+        &:hover {
+            background-color: white;
+            color:black;
+            border-radius: 0.5rem;
+        }
     }
+
+    &__list-home-about {
+        display:flex;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    &__about {
+        margin-left: 2rem;
+        color:white;
+
+        &:hover {
+            background-color: white;
+            color:black;
+            border-radius: 0.5rem;
+        }
+    }
+
+    &__random {
+        border-radius: 0.5rem;
+        background-color: orangered;
+        color: white;
+        font-weight: 600;
+        width: 10rem;
+        height: 3.5rem;
+
+        &:hover {
+            background-color: white;
+            color:black;
+            border-radius: 0.5rem;
+        }
+
+    
+    }
+
+    &__logo {
+        color: white;
+
+        &:hover {
+            background-color: white;
+            color:black;
+            border-radius: 0.5rem;
+        }
+
+    }
+
+
 }

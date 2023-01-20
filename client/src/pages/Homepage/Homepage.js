@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import NavBar from "../components/NavBar/NavBar";
-import MovieCard from "../components/MovieCard";
-import SearchBar from "../components/SearchBar/SearchBar";
+// import './HomePage.scss'
+import NavBar from "../../components/NavBar/NavBar";
+import MovieCard from "../../components/MovieCard";
+import SearchBar from "../../components/SearchBar/SearchBar";
 
 function HomePage() {
     return (
